@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
@@ -13,4 +14,11 @@
         android:onClick="onAsist"
         android:layout_height="wrap_content"
         android:text="打开辅助功能"/>
-</RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:onClick="onWeChat"
+        android:layout_height="wrap_content"
+        android:text="打开微信"/>
+</LinearLayout>

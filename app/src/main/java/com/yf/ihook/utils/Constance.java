@@ -5,9 +5,13 @@ package com.yf.ihook.utils;
  */
 
 public class Constance {
-
     public static final String WECHAT_PACKAGENAME = "com.tencent.mm";
 
     public  static  final  String WECHAT_MAINCLASS_NAME="com.tencent.mm.ui.LauncherUI";
+
+    public  static  final  String QQ_PACKAGENAME="";
+
+    private static final String QQ_MAINCLASSNAME = "QQ_MAINCLASSNAME";
+
 
 }

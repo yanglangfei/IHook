@@ -7,22 +7,20 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Toast;
 import java.util.List;
-
 /**
  * Created by Administrator on 2016/11/24.
  */
-
 public class WeChatShare extends AccessibilityService {
     private  String packageName="com.tencent.mm";
     private  String loginClass="com.tencent.mm.ui.account.LoginHistoryUI";
     private  String mainClass="com.tencent.mm.ui.LauncherUI";
-    private  String nearFirst="com.tencent.mm.plugin.nearby.ui.NearbyFriendsIntroUI";
+    private  String nearFiends="com.tencent.mm.plugin.nearby.ui.NearbyFriendsIntroUI";
+    private  String speed="";
 
     @Override
     protected void onServiceConnected() {
         super.onServiceConnected();
         //连接到service
-
     }
 
     @Override
