@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.yf.ihook.activity.LoginActivity;
 import com.yf.ihook.activity.Main;
 
 /**
@@ -20,7 +21,7 @@ public class Welcom extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-              Welcom.this.startActivity(new Intent(Welcom.this, Main.class));
+              Welcom.this.startActivity(new Intent(Welcom.this, LoginActivity.class));
             }
         },3000);
     }

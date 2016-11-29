@@ -28,7 +28,7 @@ public class ReginActivity extends Activity implements View.OnClickListener {
     private ImageView mIvLogo;
     private Button mBtnRegin;
     private Button mBtnToLogin;
-    private  String choses[]={"选择相册，选择相机"};
+    private  String choses[]={"选择相册","选择相机"};
     private ProgressDialog mDialog;
     private String url;
 
@@ -70,7 +70,7 @@ public class ReginActivity extends Activity implements View.OnClickListener {
                                      choseFromCamera();
                                  }
                              }
-                         });
+                         }).show();
                 break;
             case R.id.btn_regin:
                 loginWithPicture(url);

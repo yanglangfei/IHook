@@ -9,7 +9,6 @@ import java.util.List;
 /**
  * Created by Administrator on 2016/11/28.
  */
-
 public class DbManager  {
     public  SQLiteDatabase initDb(Context context,String name,int version){
         DbHelper helper=new DbHelper(context,name,version);
